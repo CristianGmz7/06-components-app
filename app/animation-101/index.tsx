@@ -8,7 +8,7 @@ const Animation101Screen = () => {
   const {animatedOpacity, animatedTop, fadeIn, fadeOut, startMovingTopPosition} = useAnimation()
 
   return (
-    <ThemedView margin className='flex-1 items-center justify-center'>
+    <ThemedView margin className='flex-1 items-center justify-center gap-5'>
 
       <Animated.View 
         className='bg-light-secondary dark:bg-dark-secondary rounded-xl' 
